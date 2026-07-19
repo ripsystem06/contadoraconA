@@ -40,7 +40,7 @@ header{
 }
 header.scrolled{ box-shadow:0 8px 24px -18px rgba(43,8,16,0.4); }
 .nav{ display:flex; align-items:center; justify-content:space-between; padding:18px 32px; max-width:1180px; margin:0 auto; }
-.logo{ font-size:1.3rem; font-weight:600; }
+.logo-svg{ height:32px; width:auto; display:block; }
 .nav-links{ display:flex; gap:34px; font-size:0.8rem; letter-spacing:0.08em; text-transform:uppercase; }
 .nav-links a{ position:relative; padding-bottom:4px; color:var(--ink-700); }
 .nav-links a.active{ color:var(--wine-800); font-weight:500; }
@@ -240,7 +240,7 @@ section::before{
 .icon-bar .socials a:hover{ background:var(--wine-800); border-color:var(--wine-800); }
 .icon-bar .socials a:hover svg{ stroke:var(--cream-50); }
 .icon-bar .socials svg{ width:16px; height:16px; stroke:var(--wine-800); transition:stroke .2s ease; }
-.icon-bar .logo{ font-size:1.1rem; }
+.icon-bar .logo-svg{ height:44px; }
 .icon-bar .spacer{ width:120px; }
 
 footer.legal{ background:var(--wine-950); padding:18px 0; position:relative; z-index:0; overflow:hidden; }
