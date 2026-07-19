@@ -250,6 +250,8 @@ footer.legal::before{
     repeating-linear-gradient(45deg, rgba(184,147,90,0.06) 0px, rgba(184,147,90,0.06) 1px, transparent 1px, transparent 72px);
 }
 .footer-row{ display:flex; justify-content:space-between; align-items:center; color:rgba(250,247,242,0.55); font-size:0.78rem; flex-wrap:wrap; gap:10px; }
+.footer-row a{ transition:color .25s ease; }
+.footer-row a:hover{ color:var(--gold-400); }
 
 /* ---------- reveal ---------- */
 .reveal{ opacity:0; transform:translateY(22px); transition:opacity .7s ease, transform .7s ease; }
