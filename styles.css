@@ -255,6 +255,26 @@ footer.legal::before{
 .reveal{ opacity:0; transform:translateY(22px); transition:opacity .7s ease, transform .7s ease; }
 .reveal.in{ opacity:1; transform:translateY(0); }
 
+/* ---------- whatsapp float ---------- */
+.whatsapp-float{
+  position:fixed; bottom:28px; right:28px; z-index:200;
+  width:56px; height:56px; border-radius:50%;
+  background:#25D366; color:#fff;
+  display:flex; align-items:center; justify-content:center;
+  box-shadow:0 8px 28px -6px rgba(37,211,102,0.5);
+  transition:transform .25s ease, box-shadow .25s ease;
+  animation:wa-pulse 2.2s ease-in-out infinite;
+}
+.whatsapp-float:hover{
+  transform:scale(1.12);
+  box-shadow:0 12px 34px -6px rgba(37,211,102,0.6);
+}
+.whatsapp-float svg{ width:28px; height:28px; }
+@keyframes wa-pulse{
+  0%,100%{ box-shadow:0 8px 28px -6px rgba(37,211,102,0.5); }
+  50%{ box-shadow:0 8px 36px -2px rgba(37,211,102,0.65), 0 0 0 8px rgba(37,211,102,0.08); }
+}
+
 /* ---------- responsive ---------- */
 @media (max-width:920px){
   .nav-links{ display:none; }
