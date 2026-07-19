@@ -286,6 +286,9 @@ footer.legal::before{
   .process-grid{ grid-template-columns:repeat(2,1fr); row-gap:20px; }
   .contact-grid{ grid-template-columns:1fr; }
   .icon-bar .spacer{ display:none; }
+  .icon-bar .socials{ gap:12px; }
+  .icon-bar .socials a{ width:32px; height:32px; }
+  .icon-bar .socials svg{ width:14px; height:14px; }
 }
 @media (max-width:520px){
   .wrap{ padding:0 20px; }
@@ -293,4 +296,12 @@ footer.legal::before{
   .process-grid{ grid-template-columns:1fr; }
   .check-grid{ grid-template-columns:1fr; }
   .nav-cta{ padding:10px 16px; font-size:0.7rem; }
+  .icon-bar .wrap{ flex-direction:column; gap:16px; text-align:center; }
+  .icon-bar .socials{ gap:14px; justify-content:center; flex-wrap:wrap; }
+  .icon-bar .socials a{ width:36px; height:36px; }
+  .icon-bar .socials svg{ width:15px; height:15px; }
+  .icon-bar .logo-svg{ height:38px; }
+  .footer-row{ flex-direction:column; text-align:center; }
+  .whatsapp-float{ bottom:18px; right:18px; width:48px; height:48px; }
+  .whatsapp-float svg{ width:24px; height:24px; }
 }
