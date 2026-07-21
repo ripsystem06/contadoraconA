@@ -280,6 +280,7 @@ footer.legal::before{
 /* ---------- responsive ---------- */
 @media (max-width:920px){
   .nav-links{ display:none; }
+  .logo-svg{ height:28px; }
   .feature-grid{ grid-template-columns:1fr; row-gap:44px; }
   .svc-row{ grid-template-columns:repeat(2,1fr); }
   .about-grid{ grid-template-columns:1fr; }
@@ -292,6 +293,8 @@ footer.legal::before{
 }
 @media (max-width:520px){
   .wrap{ padding:0 20px; }
+  .logo-svg{ height:24px; }
+  .nav{ padding:14px 20px; }
   .svc-row{ grid-template-columns:1fr; }
   .process-grid{ grid-template-columns:1fr; }
   .check-grid{ grid-template-columns:1fr; }
