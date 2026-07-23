@@ -55,11 +55,11 @@ header.scrolled{ box-shadow:0 8px 24px -18px rgba(43,8,16,0.4); }
 .nav-cta:hover{ background:var(--wine-950); transform:translateY(-1px); }
 
 /* ---------- hero ---------- */
-.hero{ position:relative; padding:150px 0 100px; text-align:center; }
-.hero .wrap{ position:relative; z-index:1; max-width:760px; }
-.hero h1{ font-size:clamp(2.4rem,4.6vw,3.6rem); line-height:1.12; font-weight:600; color:var(--wine-900); }
+.hero{ position:relative; padding:200px 0 140px; text-align:center; }
+.hero .wrap{ position:relative; z-index:1; max-width:840px; }
+.hero h1{ font-size:clamp(2.8rem,5.2vw,4.4rem); line-height:1.12; font-weight:600; color:var(--wine-900); }
 .hero h1 em{ font-style:italic; color:var(--rose-500); font-weight:500; }
-.hero p.lead{ margin:22px auto 0; max-width:520px; font-size:1.02rem; line-height:1.75; color:var(--ink-700); }
+.hero p.lead{ margin:26px auto 0; max-width:580px; font-size:1.08rem; line-height:1.75; color:var(--ink-700); }
 .hero-actions{ display:flex; gap:16px; justify-content:center; margin-top:34px; flex-wrap:wrap; }
 .btn-primary{
   background:var(--wine-800); color:var(--cream-50); padding:15px 30px; font-size:0.82rem;
