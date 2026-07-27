@@ -29,7 +29,7 @@ document.getElementById('contact-form').addEventListener('submit', async functio
   try {
     const res = await fetch('https://submit-form.com/3V7JLtE8k', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
       body: JSON.stringify(data),
     });
 
