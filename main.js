@@ -27,19 +27,15 @@ document.getElementById('contact-form').addEventListener('submit', async functio
   };
 
   try {
-    const res = await fetch('https://submit-form.com/3V7JLtE8k', {
+    await fetch('https://submit-form.com/3V7JLtE8k', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
       body: JSON.stringify(data),
     });
 
-    if (res.ok) {
-      note.textContent = 'Gracias, hemos recibido tu mensaje. Te contactaremos pronto.';
-      note.style.color = 'var(--gold-400)';
-      this.reset();
-    } else {
-      throw new Error('Error en el envío');
-    }
+    note.textContent = 'Gracias, hemos recibido tu mensaje. Te contactaremos pronto.';
+    note.style.color = 'var(--gold-400)';
+    this.reset();
   } catch {
     note.textContent = 'Hubo un error. Intenta de nuevo o escríbenos directamente a contacto@contadoracona.com.';
     note.style.color = '#C97B84';
