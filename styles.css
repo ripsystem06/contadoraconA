@@ -150,7 +150,7 @@ section::before{
 .about{ background:var(--cream-100); }
 .about-grid{ display:grid; grid-template-columns:0.85fr 1.15fr; gap:56px; align-items:center; position:relative; z-index:1; }
 .about-visual{
-  position:relative; border-radius:var(--radius-lg); padding:14px;
+  position:relative; border-radius:var(--radius-lg); padding:14px; overflow:hidden;
   background:linear-gradient(165deg, var(--wine-800), var(--wine-950));
   box-shadow:var(--shadow);
 }
