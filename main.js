@@ -29,8 +29,8 @@ document.getElementById('contact-form').addEventListener('submit', async functio
   try {
     await fetch('https://submit-form.com/3V7JLtE8k', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-      body: JSON.stringify(data),
+      headers: { 'Accept': 'application/json' },
+      body: new URLSearchParams(data),
     });
 
     note.textContent = 'Gracias, hemos recibido tu mensaje. Te contactaremos pronto.';
